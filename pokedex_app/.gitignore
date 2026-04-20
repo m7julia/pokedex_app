@@ -1,0 +1,60 @@
+# Escreva o conteúdo abaixo no arquivo .gitignore
+cat > .gitignore << 'EOF'
+# Arquivos gerados pelo Flutter
+.dart_tool/
+.build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock
+
+# Arquivos de IDE
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+*~
+
+# Arquivos de build
+build/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/flutter_assets/
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.*
+
+# Android
+android/local.properties
+android/.gradle/
+android/.idea/
+android/app/google-services.json
+
+# MacOS
+macos/Flutter/GeneratedPluginRegistrant.swift
+macos/Flutter/ephemeral/
+
+# Windows
+windows/flutter/generated_plugins.cmake
+windows/flutter/generated_plugin_registrant.cc
+windows/flutter/generated_plugin_registrant.h
+
+# Linux
+linux/flutter/generated_plugins.cmake
+linux/flutter/generated_plugin_registrant.cc
+linux/flutter/generated_plugin_registrant.h
+
+# Firebase
+firebase-tools-instant-win.exe
+*.exe
+
+# Arquivos ZIP
+*.zip
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+EOF
